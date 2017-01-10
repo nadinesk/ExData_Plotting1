@@ -1,6 +1,6 @@
 
 #read in the data file
-hpc <- read.table("C:/Users/nfischoff.CENTRAL/Dropbox/data exploratory analysis/household_power_consumption.txt", sep=";", header=TRUE)
+hpc <- read.table("household_power_consumption.txt", sep=";", header=TRUE)
 
 #get a subset of the data for only the dates, 2/1/2007 and 2/2/2007
 hpc.full_subset <- subset(hpc, Date == '1/2/2007' | Date == '2/2/2007')
